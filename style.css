@@ -4,4 +4,26 @@
     box-sizing: border-box;
 }
 
-
+#main-menu .navbar{
+    height: 45px;
+}
+#main-menu .navbar .navbar-nav .nav-item{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+#main-menu .navbar .navbar-nav .nav-item .dropdown-menu h5{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#main-menu .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    text-align: center;
+}
+#main-menu .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    color: red;
+    background-color: white;
+    font-weight: 500;
+}
