@@ -36,3 +36,15 @@
     background-color: white;
     font-weight: 500;
 }
+
+
+
+/* dropdown animation css  */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
