@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+#navbar .navbar .navbar-nav .nav-item{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize; */
+}
+
+
 #main-menu .navbar{
     height: 45px;
 }
@@ -14,7 +23,7 @@
     text-transform: capitalize;
 }
 #main-menu .navbar .navbar-nav .nav-item .dropdown-menu h5{
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
